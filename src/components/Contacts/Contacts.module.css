@@ -1,0 +1,36 @@
+.contacts {
+  margin-top: 20px;
+  width: 500px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+}
+
+.contactsItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactsBtn {
+  margin-right: 20px;
+  padding: 5px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  cursor: pointer;
+
+  transition: all 100ms linear;
+}
+
+.contactsBtn:hover {
+  background-color: red;
+}
